@@ -1,0 +1,33 @@
+
+.name {
+  font-size: 12px;
+  padding-top: 8px;
+  padding-right: 5px;
+}
+
+.target{
+   font-size: 10px;
+}
+.tag {
+  font-size: 12px;
+  padding-top: 3px;
+  line-height: 15px;
+  width: 33.3%;
+  color: #90959A;
+  background-image: #FFFFFF;
+  border-radius: 85px;
+  text-align: center;
+  display: inline-block;
+  word-break: keep-all;
+}
+.active {
+  padding-top: 3px;
+  line-height: 15px;
+  height: 48px;
+  width: 33.3%; 
+  background-image: linear-gradient(-90deg, #509bff 9%, #567dff 89%);
+  color: #ffffff;
+  border-radius: 85px;
+  text-align: center;
+  display: inline-block;
+}

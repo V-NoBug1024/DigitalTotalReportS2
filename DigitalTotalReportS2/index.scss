@@ -1,0 +1,66 @@
+body {
+  background-color: #EEEEEE; 
+  overflow: hidden;
+}
+.wrap {
+    width: 100%;
+    border-radius: 6px;
+    background-color: #EEEEEE; 
+    overflow: hidden;
+    // bottom: 50px;
+    // position: relative;
+    .content {
+      border-radius: 6px;
+      overflow: hidden;
+      padding: 0 10px;
+      .content_main {
+        // bottom: 50px;
+        overflow: hidden;
+        position: relative;
+        border-radius: 6px;
+        padding: 0 5px 4px 5px;
+      }
+    }
+  }   
+  .tipsDialog { 
+    p:nth-child(odd) {
+      color: #5389FF;
+    }
+    p:nth-child(even) {
+      color: #323232;
+      margin:5px 0 15px 0;
+    }
+  }
+  .notData {
+    font-size: 14px;
+    color: #90959A;
+    margin: 1em 0 1em .5em;
+  }
+  .totalTitle {
+    background: #FFFFFF;
+    border-top: 1px solid #EEEEEE;
+    text-align: center;
+    padding: 5px 10px;
+  }
+  .tagWrap {
+    height: 100%;
+    margin: 10px 15px;
+    border-radius: 85px;
+    background: #FFFFFF;
+    text-align: center;
+  }
+  .boxShadow {
+    // visibility: hidden;
+    width: 100%;
+  }
+  .boxShadowFixed {
+    width: 100%;
+    background: #EEEEEE;
+    position: fixed;
+  }
+  .fixed {
+    background-color: #FFFFFF; 
+    border-radius: 6px;
+    // width: 1726px;
+    padding: 4px 14px;
+  }
